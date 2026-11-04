@@ -80,7 +80,7 @@ claude plugin list
 
 **同一件事可能有三种写法**（以设计评审为例）：
 
-- Cowork 插件 README 的短命令：`/critique`
+- 插件 README 里的短命令：`/critique`
 - Claude Code 的插件 Skill：`/design:design-critique`
 - 自然语言：`review this design` / `帮我评审这个页面`
 
@@ -233,7 +233,7 @@ claude plugin list
 
 ### 方式二：显式命令
 
-| Skill | Cowork 插件 README 的短命令 | Claude Code 的插件 Skill |
+| Skill | 插件 README 的短命令 | Claude Code 的插件 Skill |
 |---|---|---|
 | `design-critique` | `/critique` | `/design:design-critique` |
 | `design-system` | `/design-system` | `/design:design-system` |
@@ -303,7 +303,7 @@ A：不会缺方法论，只会缺“精确数据”（精确尺寸、真实 Tok
 
 **Q：命令输入后没反应 / 名字对不上？**
 
-A：先确认插件已安装并在当前会话启用；再检查命令前缀——Cowork 的 README 用短命令，Claude Code 的插件 Skill 通常带 `design:` 前缀。最稳的办法是直接用自然语言描述任务。
+A：先确认插件已安装并在当前会话启用；再检查命令前缀——插件 README 用短命令，Claude Code 的插件 Skill 通常带 `design:` 前缀。最稳的办法是直接用自然语言描述任务。
 
 **Q：输出太泛、像套话怎么办？**
 
